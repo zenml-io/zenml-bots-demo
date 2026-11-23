@@ -1,0 +1,6 @@
+# Match the ZenML version of the workspace server.
+zenml==0.99.0
+pandas>=2.2
+pyarrow
+scikit-learn>=1.5
+# Add the integration for your artifact store, e.g. `adlfs` (Azure) or `s3fs`.
