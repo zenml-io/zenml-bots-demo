@@ -12,7 +12,7 @@ ZenML pipelines of the infrastructure analytics team.
 
 ```bash
 uv venv --python 3.11 .venv
-uv pip install --python .venv/bin/python -r requirements.txt s3fs boto3 "kubernetes>=21.7,<26" pygithub
+uv pip install --python .venv/bin/python -r requirements.txt s3fs boto3 "kubernetes>=21.7,<26" Jinja2
 zenml login <workspace>
 zenml project set infra-analytics
 zenml stack set kubernetes
